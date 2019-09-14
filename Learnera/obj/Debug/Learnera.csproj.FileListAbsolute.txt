@@ -1,0 +1,1006 @@
+C:\Users\user\Desktop\Learnera\Learnera\bin\Learnera.dll.config
+C:\Users\user\Desktop\Learnera\Learnera\bin\Learnera.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Learnera.pdb
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\csc.exe
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\csi.exe
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\Learnera\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\EntityFramework.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\Owin.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\WebGrease.dll
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\Learnera\Learnera\bin\EntityFramework.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user\Desktop\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.dll
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.pdb
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.Migrations.tryno1.resources
+C:\Users\user\Desktop\Learnera\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Learnera.dll.config
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Learnera.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Learnera.pdb
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\csc.exe
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\csc.exe.config
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\csc.rsp
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\csi.exe
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\csi.exe.config
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\csi.rsp
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Console.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\vbc.exe
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\vbc.rsp
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\EntityFramework.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Owin.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Helpers.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Mvc.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Optimization.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Razor.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.WebPages.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\WebGrease.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Helpers.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Mvc.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Optimization.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.Razor.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.WebPages.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\EntityFramework.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.Migrations.tryno1.resources
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.dll
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.Migrations.first.resources
+C:\Users\Asus\source\repos\Learnera_Final\Learnera2\Learnera\obj\Debug\Learnera.Migrations.professor.resources
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Learnera.dll.config
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Learnera.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Learnera.pdb
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\csc.exe
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\csc.exe.config
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\csc.rsp
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\csi.exe
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\csi.exe.config
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\csi.rsp
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Console.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\vbc.exe
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\vbc.rsp
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\EntityFramework.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Owin.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Helpers.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Mvc.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Optimization.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Razor.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.WebPages.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\WebGrease.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Helpers.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Mvc.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Optimization.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.Razor.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.WebPages.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\EntityFramework.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.Migrations.misespija.resources
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.dll
+C:\Users\Xessable\Desktop\New folder\Learnera2\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Learnera.dll.config
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Learnera.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Learnera.pdb
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\csc.exe
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\csc.exe.config
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\csc.rsp
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\csi.exe
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\csi.exe.config
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\csi.rsp
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Console.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\vbc.exe
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\vbc.rsp
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\EntityFramework.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Owin.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Helpers.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Mvc.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Optimization.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Razor.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.WebPages.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\WebGrease.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Helpers.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Mvc.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Optimization.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.Razor.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.WebPages.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\EntityFramework.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.Migrations.misespija.resources
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.dll
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Xessable\Desktop\Learnera2-df8e89292ee66d5ead2424ea02aa913a15346e57\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Learnera.dll.config
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Learnera.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Learnera.pdb
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\csc.exe
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\csc.exe.config
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\csc.rsp
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\csi.exe
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\csi.exe.config
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\csi.rsp
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Console.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\vbc.exe
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\vbc.rsp
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\EntityFramework.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Owin.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Helpers.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Mvc.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Optimization.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Razor.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.WebPages.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\WebGrease.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Helpers.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Mvc.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Optimization.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.Razor.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.WebPages.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\EntityFramework.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.Migrations.misespija.resources
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.dll
+C:\Users\Xessable\Desktop\Learnera\Learnera\obj\Debug\Learnera.pdb
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Learnera.dll.config
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Learnera.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Learnera.pdb
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\csc.exe
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\csi.exe
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\EntityFramework.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Owin.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Helpers.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Mvc.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Optimization.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Razor.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.WebPages.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\WebGrease.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Helpers.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Mvc.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Optimization.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.Razor.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.WebPages.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\EntityFramework.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.Migrations.misespija.resources
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.dll
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.pdb
+C:\Users\user\Desktop\Learnera3\Learnera\Learnera\obj\Debug\Learnera.Migrations.nameadded.resources
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Learnera.dll.config
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Learnera.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Learnera.pdb
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\csc.exe
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\csc.exe.config
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\csc.rsp
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\csi.exe
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\csi.exe.config
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\csi.rsp
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Console.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\vbc.exe
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\vbc.rsp
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\EntityFramework.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Owin.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Helpers.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Mvc.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Optimization.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Razor.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.WebPages.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\WebGrease.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Helpers.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Mvc.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Optimization.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.Razor.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.WebPages.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\EntityFramework.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.dll
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Learnera.dll.config
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Learnera.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Learnera.pdb
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\csc.exe
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\csc.exe.config
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\csc.rsp
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\csi.exe
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\csi.exe.config
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\csi.rsp
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.AppContext.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Console.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\vbc.exe
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\vbc.exe.config
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\vbc.rsp
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Antlr3.Runtime.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\EntityFramework.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Newtonsoft.Json.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Owin.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Helpers.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Mvc.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Optimization.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Razor.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.WebPages.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\WebGrease.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Helpers.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Mvc.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Optimization.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.Razor.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.WebPages.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Newtonsoft.Json.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Antlr3.Runtime.pdb
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\EntityFramework.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.Migrations.misespija.resources
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.Migrations.nameadded.resources
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.dll
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Xessable\Desktop\New folder (2)\Learnera\Learnera\obj\Debug\Learnera.Migrations.signupmodeladded.resources
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Learnera.dll.config
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Learnera.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Learnera.pdb
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\csc.exe
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\csc.exe.config
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\csc.rsp
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\csi.exe
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\csi.exe.config
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\csi.rsp
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.AppContext.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Collections.Immutable.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Console.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.IO.Compression.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.IO.Pipes.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Reflection.Metadata.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.AccessControl.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.Claims.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.ValueTuple.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Xml.XPath.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\vbc.exe
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\vbc.exe.config
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\vbc.rsp
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\roslyn\VBCSCompiler.exe.config
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Antlr3.Runtime.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\EntityFramework.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\EntityFramework.SqlServer.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Newtonsoft.Json.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Owin.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Helpers.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Mvc.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Optimization.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Razor.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.WebPages.Deployment.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.WebPages.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.WebPages.Razor.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\WebGrease.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Helpers.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Mvc.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Optimization.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.Razor.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.WebPages.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.WebPages.Deployment.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Web.WebPages.Razor.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Newtonsoft.Json.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Antlr3.Runtime.pdb
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\EntityFramework.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\EntityFramework.SqlServer.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Google.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.csprojAssemblyReference.cache
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.Migrations.misespija.resources
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.Migrations.nameadded.resources
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.Migrations.signupmodeladded.resources
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.csproj.CoreCompileInputs.cache
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.csproj.CopyComplete
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.dll
+C:\Workspace\Learnera\Learnera 2\Learnera\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.Migrations.first.resources
+C:\Users\Asus\source\repos\Learnera_Najfinal\Learnera\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache

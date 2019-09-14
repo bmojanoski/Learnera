@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Learnera.Models.Subject>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<meta charset="UTF-8">
+<title>Learnera</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://kit.fontawesome.com/883500bd7a.js"></script>
+
+<div class="row shadow-sm rounded border mt-3" style="border-color: whitesmoke">
+    <div class="col-12 d-flex flex-column justify-content-center" style="height: 50px;">
+        <h6 class=" text-secondary">Browse your subjects</h6>
+    </div>
+</div>
+<div class="row border-left border-right shadow-sm">
+    <div class="col-12 mt-3 pb-3 border-bottom">
+        <div class="row">
+
+            <div class="col-6 col-sm-2 ml-auto">
+
+                <select class="form-control" name="sort">
+                    <option value="" selected hidden disabled>Sort by...</option>
+                    <option value="name">Name</option>
+                    <option value="last activity">Last activity</option>
+                </select>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search subject..">
+
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                @foreach (var subject in Model)
+                {
+                    <div class="card text-center col-6 mx-auto mb-5 mt-5" style="padding: 0">
+
+                        <div class="card-header" style="background-color: #659DBD">
+                            <h2 style="margin:0" class="text-light"> <a href="/Presentations/Show/@subject.Id"> @subject.Name</a></h2>
+                        </div>
+                        <div class="card-body" style="padding: 0; margin: 0.5em">
+                            <img src="~/Content/calc3.png" class="card-img">
+                        </div>
+                        <div class="card-footer" style="background-color: #659DBD">
+                            <h5 class="text-right text-light" style="margin:0">@subject.Professor</h5>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@*<script>
+        $(document).ready(function () {
+            $.ajax({
+                type: "GET",
+                url: "/Home/getSubjectsIndex",
+                success: function (data) {
+                    debugger;
+                    $.each(data, function (i, obj) {
+                        var fullString = "";
+                        debugger;
+                        var n1 = "<div class=\"card text-center col-6 mx-auto  mb-5 mt-5\" style=\"padding: 0\">"
+                        var n2 = "<div class=\"card-header\" style=\"background - color: #659DBD\"> h2 style =\"margin:0\" class=\"text-light\">" + obj + "</h2></div>"
+                        var n3 = "<div class=\"card-body\" style=\"padding: 0; margin: 0.5em\"><img src = \"~/Content/calc3.png\" class=\"card-img\"></div>"
+                        var n4 = "<div class=\"card-footer\" style=\"background - color: #659DBD\"><h5 class=\"text-right text-light\" style=\"margin:0\">" + obj + "</h5></div>"
+
+                        fullString += n1;
+                        fullString += n2;
+                        fullString += n3;
+                        fullString += n4;
+
+                        $("cardContainer").append(fullString);
+
+                    });
+                }
+            });
+        });
+    </script>*@
