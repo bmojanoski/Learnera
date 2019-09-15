@@ -12,25 +12,24 @@
 <div class="container">
     <div class="row justify-content-center mt-5">
         <div id="full" class="col-10 mt-3" style="height: 75vh;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <div class="carousel-inner">
+                <div class="carousel-inner" id="start">
                     @foreach (var slide in Model)
                     {
                         if (slide.ImageUrl.EndsWith("1.jpg"))
                         {
-                            shownSlideIndex = slide.Id;
-                            <div class="carousel-item d-flex justify-content-center active">
+                            <div class="carousel-item d-flex justify-content-center active" id="@slide.Id">
                                 <img class="d-block w-100" src="@slide.ImageUrl" alt="First slide">
                             </div>
                         }
                         else
                         {
-                            <div class="carousel-item d-flex justify-content-center">
+                            <div class="carousel-item d-flex justify-content-center" id="@slide.Id">
                                 <img class="d-block w-100" src="@slide.ImageUrl" alt="First slide">
                             </div>
                         }
@@ -50,40 +49,41 @@
     <button class="btn btn-light" onclick="openFullscreen()">Full screen</button>
 
     <div id="comments">
-
     </div>
 
 </div>
 @section scripts{
     <script>
+        var firstSlideId = $('.carousel-item').first().attr("id");
+        var lastSlideId = $('.carousel-item').last().attr("id");
 
         /* Load slide comments */
-        function LoadComments() {
-
-            $("#comments").load('@(Url.Action("ShowComments","Presentations",null, Request.Url.Scheme))?id=' + @Model.ToArray()[shownSlideIndex].Id);
+        function LoadComments(slideId) {
+            $("#comments").load('@(Url.Action("ShowComments","Presentations",null, Request.Url.Scheme))?id=' + slideId);
         }
 
         $("#leftSlide").click(function () {
-            @{ 
-                shownSlideIndex -= 1;
-                if (shownSlideIndex < 0)
-                {
-                    shownSlideIndex = totalSlides - 1;
-                }
-            }
+            var slideId = $('div.active').attr("id");
+            slideId -= 1;
+            if (slideId < firstSlideId)
+                slideId = lastSlideId;
 
-            LoadComments();
+            LoadComments(slideId);
         });
+
         $("#rightSlide").click(function () {
-            @{ 
-                shownSlideIndex += 1;
-                if (shownSlideIndex > totalSlides - 1)
-                {
-                    shownSlideIndex = 0;
-                }
-            }
-            LoadComments();
+            var slideId = $('div.active').attr("id");
+            slideId++;
+            if (slideId > lastSlideId)
+                slideId = firstSlideId;
+
+            LoadComments(slideId);
         });
+
+        // Load first slide comments When page opens
+        $(document).ready(function () {
+            $("#comments").load('@(Url.Action("ShowComments","Presentations",null, Request.Url.Scheme))?id=' + firstSlideId);
+        })
 
 
         /* Get the documentElement (<html>) to display the page in fullscreen */

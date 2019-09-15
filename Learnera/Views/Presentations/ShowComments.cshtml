@@ -25,7 +25,7 @@
                         @foreach (var comment in Model) {
                             <li>
                                 <div class="p-3">
-                                    <h4 class="text-info">@comment.Author</h4>
+                                    <h4 class="text-info">@comment.Author.Name  @comment.Author.LastName</h4>
                                     <h4 class="text-dark ">@comment.Text</h4>
 
                                 </div>
@@ -36,7 +36,7 @@
                                     @foreach (var reply in comment.Replies) {
 
                                         <li class="h5 mt-4 text-info bg-light rounded p-3 border" style="border-color: ghostwhite">
-                                            @reply.Author
+                                            @reply.Author.Name  @reply.Author.LastName
                                             <div class="h5 text-dark ml-1 ">
                                                 @reply.Text
                                             </div>

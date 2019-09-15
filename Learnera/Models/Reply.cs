@@ -1,22 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace Learnera.Models
-{
-    public class Reply
-    {
-        public int ReplyId { get; set; }
-        public DateTime DateTime { get; set; }
-        public string Text { get; set; }
+namespace Learnera.Models {
+    public class Reply {
+        public Reply() {
+            this.ReplyLikedBy = new List<ApplicationUser>();
+        }
 
-      
+        public int Id { get; set; }
+        public string Text { get; set; }
+        public virtual Comment CommentFrom { get; set; }
         public virtual ApplicationUser Author { get; set; }
-  
-        public virtual List<ApplicationUser> ReplyApplicationUser { get; set; }
-        
-        public virtual Comment CommentReplies { get; set; }
+        public virtual List<ApplicationUser> ReplyLikedBy{ get; set; }
     }
 }

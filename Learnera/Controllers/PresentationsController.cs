@@ -20,14 +20,12 @@ namespace Learnera.Controllers
         {
 
             var pres = db.presentantions.Where(p => p.Subject.Id == id).ToList();
+
             return View(pres);
             
         }
         public ActionResult Slides(int id) {
-            
             var pres = db.slides.Where(s => s.Presentation.Id == id).ToList();
-            Console.WriteLine("Entered"+ pres);
-
             return View(pres);
 
         }
@@ -39,7 +37,11 @@ namespace Learnera.Controllers
         [HttpGet]
         public async Task<ActionResult> ShowComments(int id)
         {
-            var model = db.comments.Where(c => c.Slide.Id == id);
+            var com = db.comments.ToList();
+
+            var model = db.comments.ToList().Where(c => c.Slide.Id == id).ToList();
+            Console.WriteLine("Got model: " + id);
+
             return PartialView("ShowComments", model);
         }
     

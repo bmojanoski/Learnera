@@ -14,9 +14,7 @@ namespace Learnera.Models
         public string Name { get; set; }
         public string LastName { get; set; }
         public virtual List<Learnera.Models.Subject> Subjects { get; set; }
-        public virtual List<Learnera.Models.Comment> WrittenComments { get; set; }
         public virtual List<Learnera.Models.Comment> LikedComments { get; set; }
-        public virtual List<Learnera.Models.Reply> WrittenReplies { get; set; }
         public virtual List<Learnera.Models.Reply> LikedReplies { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
