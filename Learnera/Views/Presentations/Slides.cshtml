@@ -2,34 +2,42 @@
 @{
     ViewBag.Title = "Show";
 }
-<h2>Slides</h2>
+
 
 @{
     int shownSlideIndex = 0;
     int totalSlides = Model.Count();
 }
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://kit.fontawesome.com/883500bd7a.js"></script>
+<div class="container-fluid">
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <h3>Slides for presentation: "@Model.First().Presentation.name"</h3>
+        </div>
+    </div>
+</div>
 <div class="container">
-    <div class="row justify-content-center mt-5">
-        <div id="full" class="col-10 mt-3" style="height: 75vh;">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+    <div id="full" class="row justify-content-center mt-5 border-2 shadow-lg" style="border:solid 0.3px; border-color:lightgray ">
+        <div class="col-10 mt-3">
+            <div id="carouselExampleIndicators" class="carousel slide p-3" data-ride="carousel" data-interval="false">
+
                 <div class="carousel-inner" id="start">
                     @foreach (var slide in Model)
                     {
                         if (slide.ImageUrl.EndsWith("1.jpg"))
                         {
-                            <div class="carousel-item d-flex justify-content-center active" id="@slide.Id">
+                            <div class="carousel-item active" id="@slide.Id">
                                 <img class="d-block w-100" src="@slide.ImageUrl" alt="First slide">
                             </div>
                         }
                         else
                         {
-                            <div class="carousel-item d-flex justify-content-center" id="@slide.Id">
+                            <div class="carousel-item" id="@slide.Id">
                                 <img class="d-block w-100" src="@slide.ImageUrl" alt="First slide">
                             </div>
                         }
@@ -44,13 +52,24 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-12 bg-light shadow-sm p-2 d-flex border-top-0" style="border:solid 0.3px; border-color:lightgray ">
+            <button class="btn btn-info ml-2" onclick="goBack()"><i class="far fa-arrow-alt-circle-left"></i> Go back</button>
+            <button class="btn btn-info ml-auto mr-2" onclick="openFullscreen()"><i class="fas fa-compress"></i> Full screen</button>
+
         </div>
     </div>
-    <button class="btn btn-light" onclick="openFullscreen()">Full screen</button>
 
-    <div id="comments">
+</div>
+<div class="container">
+    <div class="row mt-5">
+        <div id="comments" class="col-12 shadow-lg pb-3 ">
+        </div>
     </div>
-
 </div>
 @section scripts{
     <script>
@@ -100,7 +119,12 @@
             } else if (elem.msRequestFullscreen) { /* IE/Edge */
                 elem.msRequestFullscreen();
             }
-
+            var elements = document.getElementsByClassName("d-block");
+            for (var i = 0; i < elements.length; i++) {
+               elements[i].style.height = "100%"
+                elements[i].classList.remove("w-100");
+                elements[i].classList.add("ml-4")
+            }
         }
 
         /* Close fullscreen */
@@ -114,7 +138,18 @@
             } else if (document.msExitFullscreen) { /* IE/Edge */
                 document.msExitFullscreen();
             }
+
+            var elements = document.getElementsByClassName("d-block");
+            for (var i = 0; i < elements.length; i++) {
+                elements[i].classList.add("w-100");
+                elements[i].classList.add("w-100");
+                elements[i].classList.remove("ml-4")
+            }
         }
     </script>
-
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 }

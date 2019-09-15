@@ -2,9 +2,16 @@
 @{
     ViewBag.Title = "Show";
 }
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<script src="https://kit.fontawesome.com/883500bd7a.js"></script>
 
 @Styles.Render("~/Content/Presentations.css")
+
+
 <h1>Presentations</h1>
 <div class="row shadow-sm rounded border mt-3" style="border-color: whitesmoke">
     <div class="col-12 d-flex flex-column justify-content-center my-1" style="height: 50px;">
@@ -13,41 +20,41 @@
                 <h6 class=" text-secondary">Browse presentations for @Model.First().Subject.Name</h6>
             </div>
             <div class="col-2 ml-auto">
-            <button onclick="location.href = '/home/index';" type="button" class="btn btn-outline-dark">Back to all subjects</button>
+                <button onclick="location.href = '/home/index';" type="button" class="btn btn-outline-dark">Back to all subjects</button>
             </div>
         </div>
-        
+
     </div>
 </div>
 <div class="row border-left border-right shadow-sm">
     <div class="col-12 mt-3 pb-3 border-bottom">
-            <div class="col-12">
-                <div class="row">
-                    @foreach (var presentation in Model)
-                    {
-                        <div class="col-md-4">
-                            <div class="blog-card blog-card-blog">
-                                <div class="blog-card-image">
-                                    <a href="#"> <img class="img" src="~/Content/presentation_numbers/1.png"> </a>
-                                    <div class="ripple-cont"></div>
-                                </div>
-                                <div class="blog-table">
-                                    <p class="blog-category text-muted"><i class="fas fa-book"></i> @presentation.Subject.Name</p>
-                                    <h4 class="blog-card-caption py-3">
-                                        <a href="@Url.Action("Slides", "Presentations", new { id = presentation.Id})">"@presentation.name"</a>
-                                    </h4>
-                                    <div class="ftr">
-                                        <div class="author">
-                                            <img src="~/Content/profesor.png" alt="..." class="avatar img-raised"><span class="text-muted">@presentation.Subject.Professor</span>
-                                        </div>
-                                        <div class="stats"> <i class="far fa-clock"></i> @presentation.Slides.Count slides </div>
+        <div class="col-12">
+            <div class="row">
+                @foreach (var presentation in Model)
+                {
+                    <div class="col-md-4">
+                        <div class="blog-card blog-card-blog">
+                            <div class="blog-card-image">
+                                <a href="#"> <img class="img" src="~/Content/presentation_numbers/1.png"> </a>
+                                <div class="ripple-cont"></div>
+                            </div>
+                            <div class="blog-table">
+                                <p class="blog-category text-muted"><i class="fas fa-book"></i> @presentation.Subject.Name</p>
+                                <h4 class="blog-card-caption py-3">
+                                    <a href="@Url.Action("Slides", "Presentations", new { id = presentation.Id})">"@presentation.name"</a>
+                                </h4>
+                                <div class="ftr">
+                                    <div class="author">
+                                        <img src="~/Content/profesor.png" alt="..." class="avatar img-raised"><span class="text-muted">@presentation.Subject.Professor</span>
                                     </div>
+                                    <div class="stats"> <i class="far fa-clock"></i> @presentation.Slides.Count slides </div>
                                 </div>
                             </div>
                         </div>
-                    }
-                </div>
+                    </div>
+                }
             </div>
-        
+        </div>
+
     </div>
 </div>
