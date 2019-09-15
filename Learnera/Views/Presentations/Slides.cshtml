@@ -4,8 +4,9 @@
 }
 <h2>Slides</h2>
 
-@{ 
+@{
     int shownSlideIndex = 0;
+    int totalSlides = Model.Count();
 }
 
 <div class="container">
@@ -18,17 +19,19 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <script>InitializeTotalSlides('@Model.ToList().Count')</script> 
-                    @foreach (var slide in Model) {
-                        if (slide.ImageUrl.EndsWith("1.jpg")) {
+                    @foreach (var slide in Model)
+                    {
+                        if (slide.ImageUrl.EndsWith("1.jpg"))
+                        {
                             shownSlideIndex = slide.Id;
-                            <div class="carousel-item d-flex justify-content-center active" >
-                                <img class="d-block" src="@slide.ImageUrl" alt="First slide" style="height:100vh">
+                            <div class="carousel-item d-flex justify-content-center active">
+                                <img class="d-block w-100" src="@slide.ImageUrl" alt="First slide">
                             </div>
                         }
-                        else {
+                        else
+                        {
                             <div class="carousel-item d-flex justify-content-center">
-                                <img class="d-block" src="@slide.ImageUrl" alt="First slide" style="height:100vh">
+                                <img class="d-block w-100" src="@slide.ImageUrl" alt="First slide">
                             </div>
                         }
                     }
@@ -46,64 +49,8 @@
     </div>
     <button class="btn btn-light" onclick="openFullscreen()">Full screen</button>
 
-    <div class="row mt-5 justify-content-center">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-header">
-                    <div class="row justify-content-between">
-                        <div class="col-4">
-                            Questions & Answers
-                        </div>
-                        <div class="col-3 ml-auto text-muted">
-                            Last Activity: 20.06.2019
-                        </div>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="form-group">
+    <div id="comments">
 
-                        <ul style="list-style-type: none ">
-
-                            <li>
-                                <div class="p-3">
-                                    <h4 class="text-info">Nikola Pejovski</h4>
-                                    <h4 class="text-dark ">Ask me a question?</h4>
-
-                                </div>
-
-                                <ul style="list-style-type: none ">
-
-
-                                    <li class="h5 mt-4 text-info bg-light rounded p-3 border"
-                                        style="border-color: ghostwhite">
-                                        Petar Penkov
-                                        <div class="h5 text-dark ml-1 ">
-                                            How to pass FINKI?
-                                        </div>
-                                    </li>
-                                    <li class="h5 mt-4 text-info bg-light rounded p-3 border"
-                                        style="border-color: ghostwhite">
-                                        Petar Penkov
-                                        <div class="h5 text-dark ml-1 ">
-                                            How to pass FINKI?
-                                        </div>
-                                    </li>
-                                    <li class="h5 mt-4 text-info bg-light rounded p-3 border"
-                                        style="border-color: ghostwhite">
-                                        Petar Penkov
-                                        <div class="h5 text-dark ml-1 ">
-                                            How to pass FINKI?
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <hr>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 </div>
@@ -111,24 +58,31 @@
     <script>
 
         /* Load slide comments */
-        var shownSlideIndex = 0;
-        var totalSlides;
+        function LoadComments() {
 
-        function InitializeTotalSlides(var num) {
-            totalSlides = num;
+            $("#comments").load('@(Url.Action("ShowComments","Presentations",null, Request.Url.Scheme))?id=' + @Model.ToArray()[shownSlideIndex].Id);
         }
 
         $("#leftSlide").click(function () {
-            shownSlideIndex -= 1;
-            if (shownSlideIndex < 0)
-                shownSlideIndex = totalSlides - 1;
-            // Ajax here
+            @{ 
+                shownSlideIndex -= 1;
+                if (shownSlideIndex < 0)
+                {
+                    shownSlideIndex = totalSlides - 1;
+                }
+            }
+
+            LoadComments();
         });
         $("#rightSlide").click(function () {
-            shownSlideIndex += 1;
-            if (shownSlideIndex > totalSlides - 1)
-                shownSlideIndex = 0;
-            // Ajax here
+            @{ 
+                shownSlideIndex += 1;
+                if (shownSlideIndex > totalSlides - 1)
+                {
+                    shownSlideIndex = 0;
+                }
+            }
+            LoadComments();
         });
 
 
@@ -138,13 +92,13 @@
         /* View in fullscreen */
         function openFullscreen() {
             if (elem.requestFullscreen) {
-            elem.requestFullscreen();
+                elem.requestFullscreen();
             } else if (elem.mozRequestFullScreen) { /* Firefox */
-            elem.mozRequestFullScreen();
+                elem.mozRequestFullScreen();
             } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-            elem.webkitRequestFullscreen();
+                elem.webkitRequestFullscreen();
             } else if (elem.msRequestFullscreen) { /* IE/Edge */
-            elem.msRequestFullscreen();
+                elem.msRequestFullscreen();
             }
 
         }
@@ -152,15 +106,15 @@
         /* Close fullscreen */
         function closeFullscreen() {
             if (document.exitFullscreen) {
-            document.exitFullscreen();
+                document.exitFullscreen();
             } else if (document.mozCancelFullScreen) { /* Firefox */
-            document.mozCancelFullScreen();
+                document.mozCancelFullScreen();
             } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-            document.webkitExitFullscreen();
+                document.webkitExitFullscreen();
             } else if (document.msExitFullscreen) { /* IE/Edge */
-            document.msExitFullscreen();
+                document.msExitFullscreen();
             }
         }
     </script>
-    
-    }
+
+}

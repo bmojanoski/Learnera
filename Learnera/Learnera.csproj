@@ -183,17 +183,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201909142203100_first.cs" />
-    <Compile Include="Migrations\201909142203100_first.Designer.cs">
-      <DependentUpon>201909142203100_first.cs</DependentUpon>
+    <Compile Include="Migrations\201909150025020_first.cs" />
+    <Compile Include="Migrations\201909150025020_first.Designer.cs">
+      <DependentUpon>201909150025020_first.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\CommentApplicationUser.cs" />
+    <Compile Include="Models\CommentReply.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Presentation.cs" />
     <Compile Include="Models\Reply.cs" />
+    <Compile Include="Models\ReplyApplicationUser.cs" />
     <Compile Include="Models\Slide.cs" />
     <Compile Include="Models\Subject.cs" />
     <Compile Include="Models\UserDTO.cs" />
@@ -557,6 +560,7 @@
     <Content Include="Views\Presentations\Show.cshtml" />
     <Content Include="Views\Presentations\Slides.cshtml" />
     <Content Include="Views\Home\EditUser.cshtml" />
+    <Content Include="Views\Presentations\ShowComments.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -571,8 +575,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201909142203100_first.resx">
-      <DependentUpon>201909142203100_first.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201909150025020_first.resx">
+      <DependentUpon>201909150025020_first.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

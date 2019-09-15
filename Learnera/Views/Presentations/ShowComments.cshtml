@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Learnera.Models.Comment>
+@{
+    ViewBag.Title = "Show comments";
+}
+
+
+<div class="row mt-5 justify-content-center">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="row justify-content-between">
+                    <div class="col-4">
+                        Questions & Answers
+                    </div>
+                    <div class="col-3 ml-auto text-muted">
+                        Last Activity: 20.06.2019
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+
+                    <ul style="list-style-type: none ">
+                        <!-- Comments -->
+                        @foreach (var comment in Model) {
+                            <li>
+                                <div class="p-3">
+                                    <h4 class="text-info">@comment.Author</h4>
+                                    <h4 class="text-dark ">@comment.Text</h4>
+
+                                </div>
+
+                                <ul style="list-style-type: none ">
+
+                                    <!-- Replies -->
+                                    @foreach (var reply in comment.Replies) {
+
+                                        <li class="h5 mt-4 text-info bg-light rounded p-3 border" style="border-color: ghostwhite">
+                                            @reply.Author
+                                            <div class="h5 text-dark ml-1 ">
+                                                @reply.Text
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                            </li>
+                            <hr>
+
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

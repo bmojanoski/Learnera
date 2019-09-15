@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Learnera.Models;
@@ -34,6 +35,14 @@ namespace Learnera.Controllers
         {
             return View(db.presentantions.ToList());
         }
+
+        [HttpGet]
+        public async Task<ActionResult> ShowComments(int id)
+        {
+            var model = db.comments.Where(c => c.Slide.Id == id);
+            return PartialView("ShowComments", model);
+        }
+    
 
         // GET: Presentations/Details/5
         public ActionResult Details(int? id)
