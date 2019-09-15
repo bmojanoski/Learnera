@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Learnera.Models.Subject>
+﻿@model IEnumerable<Learnera.Models.SubjectsDTO>
 
 @{
     ViewBag.Title = "Index";
@@ -6,36 +6,68 @@
 
 <div class="row">
     <div class="col-12">
-        <table class="table mt-5" style="border: 1px solid gray">
+        <table class="table mt-5" id="myTable" style="border: 1px solid gray">
             <thead class="thead-dark">
                 <tr>
                     <th></th>
                     <th>
-                        @Html.DisplayNameFor(model => model.Name)
+                        Name
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.Professor)
+                        Professor
                     </th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>
-                            @Html.CheckBox("Add subject", false)
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Name, new { @class = "form-control" })
-                        </td>
-                        <td>
-                            @Html.DisplayFor(modelItem => item.Professor, new { @class = "form-control" })
-                        </td>
+                    <tr id="trContainer">
+                        
                     </tr>
-                }
             </tbody>
         </table>
 
     </div>
 </div>
-<div class=""></div>
+<div class="row">
+    <div class="col-3">
+        <button class="btn btn-primary" onclick="saveButtonClicked()">Save</button>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        debugger;
+        $.ajax({
+            method: "GET",  
+            url: "/Subjects/EditSubjects",
+            
+            success: function (data) {
+                debugger;
+                   
+            }
+        });
+    });
+           function saveButtonClicked() {
+            //GET ALL SELECTED SUBJECTS
+
+           $('#myTable input:checkbox:checked').each(function () {
+                var rowId = $(this).parents("tr").children('td')
+                var subject = rowId[1].innerText
+                var profesor = rowId[2].innerText
+                odbranipredmeti.push({ "Name": subject, "Professor": profesor });
+            });
+           
+            $.ajax({
+                url: "/Account/Register",
+                method: "POST",
+                data: {
+                    model: { subjects: odbranipredmeti }
+                },
+                success: function (data) {
+                    odbranipredmeti = [];
+                    $("html").html(data);
+                }
+            });
+
+        };
+</script>
