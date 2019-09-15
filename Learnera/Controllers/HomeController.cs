@@ -13,9 +13,9 @@ namespace Learnera.Controllers
 {
     public class HomeController : Controller
     {
-         private ApplicationDbContext db = new ApplicationDbContext();
-         public ApplicationUser specificUser = new ApplicationUser();
-         public List<Subject> subjects = new List<Subject>();
+        private ApplicationDbContext db = new ApplicationDbContext();
+        public ApplicationUser specificUser = new ApplicationUser();
+        public List<Subject> subjects = new List<Subject>();
         public ActionResult Index()
         {
             string username = "";
@@ -31,11 +31,12 @@ namespace Learnera.Controllers
 
         public ActionResult Presentations(int id)
         {
-            
+
 
             return View();
 
-        }public ActionResult About()
+        }
+        public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
 
@@ -51,7 +52,7 @@ namespace Learnera.Controllers
 
         public ActionResult EditUser(string id)
         {
-            if (id==null)
+            if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
@@ -71,7 +72,7 @@ namespace Learnera.Controllers
         [HttpPost]
         public ActionResult EditUser(UserDTO userDTO)
         {
-           var user= db.Users.Find(userDTO.id);
+            var user = db.Users.Find(userDTO.id);
             user.Name = userDTO.name;
             user.LastName = userDTO.lastName;
             user.PhoneNumber = userDTO.phoneNumber;

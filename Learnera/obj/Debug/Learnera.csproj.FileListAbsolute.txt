@@ -1337,3 +1337,5 @@ C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.csproj
 C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.csproj.CopyComplete
 C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.dll
 C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.pdb
+C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.Migrations.proba.resources
+C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.Migrations.proba2.resources

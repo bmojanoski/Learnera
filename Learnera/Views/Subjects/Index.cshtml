@@ -4,33 +4,38 @@
     ViewBag.Title = "Index";
 }
 
-<table class="table mt-5" style="border: 1px solid gray">
-    <thead class="thead-dark"> 
-        <tr>
-            <th></th>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Professor)
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.CheckBox("Add subject", false)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name, new { @class = "form-control" })
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Professor, new { @class = "form-control" })
-                </td>
-            </tr>
-        }
-    </tbody>
+<div class="row">
+    <div class="col-12">
+        <table class="table mt-5" style="border: 1px solid gray">
+            <thead class="thead-dark">
+                <tr>
+                    <th></th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Professor)
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.CheckBox("Add subject", false)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name, new { @class = "form-control" })
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Professor, new { @class = "form-control" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
-</table>
+    </div>
+</div>
+<div class=""></div>

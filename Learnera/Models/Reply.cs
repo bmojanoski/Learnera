@@ -10,6 +10,7 @@ namespace Learnera.Models {
         }
 
         public int Id { get; set; }
+        public int LikesCount { get; set; }
         public string Text { get; set; }
         public virtual Comment CommentFrom { get; set; }
         public virtual ApplicationUser Author { get; set; }

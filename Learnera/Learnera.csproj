@@ -187,6 +187,14 @@
     <Compile Include="Migrations\201909150221032_a1.Designer.cs">
       <DependentUpon>201909150221032_a1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201909151811244_proba.cs" />
+    <Compile Include="Migrations\201909151811244_proba.Designer.cs">
+      <DependentUpon>201909151811244_proba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909151812518_proba2.cs" />
+    <Compile Include="Migrations\201909151812518_proba2.Designer.cs">
+      <DependentUpon>201909151812518_proba2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -576,6 +584,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201909150221032_a1.resx">
       <DependentUpon>201909150221032_a1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909151811244_proba.resx">
+      <DependentUpon>201909151811244_proba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909151812518_proba2.resx">
+      <DependentUpon>201909151812518_proba2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
