@@ -73,7 +73,7 @@
             });
 
 
-            debugger;
+           
             $.ajax({
                 url: "/Account/Register",
                 method: "POST",
@@ -81,7 +81,7 @@
                     model: { Name: ime, Surname: prezime, Email: email, Password: pasvord, ConfirmPassword: confirm, subjects: odbranipredmeti }
                 },
                 success: function (data) {
-                    debugger;
+                   
                     odbranipredmeti = [];
                     $("html").html(data);
                 }

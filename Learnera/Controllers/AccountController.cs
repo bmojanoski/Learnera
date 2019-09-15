@@ -340,6 +340,7 @@ namespace Learnera.Controllers
         }
 
         //
+        //
         // GET: /Account/ExternalLoginCallback
         [AllowAnonymous]
         public async Task<ActionResult> ExternalLoginCallback(string returnUrl)
@@ -365,7 +366,11 @@ namespace Learnera.Controllers
                     // If the user does not have an account, then prompt the user to create an account
                     ViewBag.ReturnUrl = returnUrl;
                     ViewBag.LoginProvider = loginInfo.Login.LoginProvider;
-                    return View("ExternalLoginConfirmation", new ExternalLoginConfirmationViewModel {  Email = loginInfo.Email /*UserName = loginInfo.Email, LastName = loginInfo.Surname,  Name = loginInfo.Name*/});
+                    return View("ExternalLoginConfirmation", new ExternalLoginConfirmationViewModel {
+                        Email = loginInfo.Email,
+                        Name = loginInfo.ExternalIdentity.Name.Split(' ')[0],
+                        Surname = loginInfo.ExternalIdentity.Name.Split(' ')[1]
+                    });
             }
         }
 
@@ -389,7 +394,7 @@ namespace Learnera.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email, LastName = model.Surname, Name = model.Name};
+                var user = new ApplicationUser { UserName = model.Email, Name = model.Name, Email = model.Email, LastName = model.Surname};
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
