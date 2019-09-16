@@ -4,7 +4,7 @@
 }
 
 
-<div class="row mt-3 justify-content-center">
+<div class="row mt-5 justify-content-center">
     <div class="col-12">
         <div class="card">
             <div class="card-header">
@@ -20,32 +20,41 @@
             <div class="card-body">
                 <div class="form-group">
 
-                    <ul style="list-style-type: none ">
+                    <ul style="list-style-type: none;  padding-left: 0px ">
                         <!-- Comments -->
                         @foreach (var comment in Model) {
-
                             <li>
-                                <div class="p-3">
-                                    <h4 class="text-info">@comment.Author.Name  @comment.Author.LastName</h4>
-                                    <h4 class="text-dark ">@comment.Text</h4>
-
+                                <div class="p-3 row">
+                                    <div class="d-flex flex-column align-items-center justify-content-between h5 mb-4" style="width:4%;">
+                                        <button class="btn btn-link p-0 upVoteComment" onclick="Voted(this)" id="@comment.Id"><img src="../../Content/Images/sort-up.png" style="height: 10px; width: 15px"></button>
+                                        <span class="numberOfLikes display-5" style="margin:0">@comment.LikesCount</span>
+                                        <button class="btn btn-link p-0 downVoteComment" onclick="Voted(this)" id="@comment.Id"><img src="../../Content/Images/sort-down.png" style="height: 10px; width: 15px"></button>
+                                    </div>
+                                    <div style="width:94%; padding-left: 10px">
+                                        <h4 class="text-info">@comment.Author.Name  @comment.Author.LastName</h4>
+                                        <h4 class="text-dark ">@comment.Text</h4>
+                                    </div>
                                 </div>
 
                                 <ul style="list-style-type: none ">
 
                                     <!-- Replies -->
                                     @foreach (var reply in comment.Replies) {
-
-                                        <li class="h5 mt-4 text-info bg-light rounded p-3 border" style="border-color: ghostwhite">
-                                            @reply.Author.Name  @reply.Author.LastName
-                                            <div class="h5 text-dark ml-1 ">
-                                                @reply.Text
+                                        <li class="h5 mb-4 bg-light rounded p-3 border row" style="border-color: ghostwhite">
+                                            <div class="d-flex flex-column align-items-center justify-content-between" style="width:4%;">
+                                                <button class="btn btn-link p-0 upVoteReply" onclick="Voted(this)" id="@reply.Id"><img src="../../Content/Images/sort-up.png" style="height: 10px; width: 15px"></button>
+                                                <span class="numberOfLikes display-5" style="margin:0">@reply.LikesCount</span>
+                                                <button class="btn btn-link p-0 downVoteReply" onclick="Voted(this)" id="@reply.Id"><img src="../../Content/Images/sort-down.png" style="height: 10px; width: 15px"></button>
+                                            </div>
+                                            <div style="width:94%; padding-left: 10px">
+                                                <h4 class="text-info">@reply.Author.Name  @reply.Author.LastName</h4>
+                                                <h4 class="text-dark ">@reply.Text</h4>
                                             </div>
                                         </li>
                                     }
                                 </ul>
                             </li>
-                            
+                            <hr>
 
                         }
 
@@ -55,3 +64,251 @@
         </div>
     </div>
 </div>
+
+
+<script>
+
+    // Change Icon
+    function ChangeUpVoteIcon(button, selected) {
+        var image = $(button).children()[0];
+
+        if (selected)
+            image.src = "../../Content/Images/sort-up1.png";
+        else
+            image.src = "../../Content/Images/sort-up.png";
+    }
+
+    function ChangeDownVoteIcon(button, selected) {
+        var image = $(button).children()[0];
+
+        if (selected)
+            image.src = "../../Content/Images/sort-down1.png";
+        else
+            image.src = "../../Content/Images/sort-down.png";
+    }
+
+
+    // Comment Up Vote
+    function Voted(vote) {
+        var voteId = $(vote).attr("id");
+
+        // ---- COMMENT UP ----
+        if ($(vote).hasClass("upVoteComment")) {
+            // COMMENT UP
+            var key = voteId + "CUP";
+
+            if (localStorage.getItem(key) == null) {
+                var changeValue = 1;
+                var downKey = voteId + "CDOWN";
+                if (localStorage.getItem(downKey) != null) {        // Ako prethodno bilo Down Vote treba za 2 da ja smenis vrendosta.
+                    changeValue = 2;
+                    localStorage.removeItem(downKey);
+
+                    var downButton = $(vote).next().next();
+                    ChangeDownVoteIcon(downButton, false);
+                }
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeCommentLikes",
+                    data: {
+                        'id': voteId,
+                        'value': changeValue
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).next()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) + changeValue;
+
+                ChangeUpVoteIcon(vote, true);
+
+                // Add to local storage
+                localStorage.setItem(key, "true");
+            } else {
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeCommentLikes",
+                    data: {
+                        'id': voteId,
+                        'value': -1
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).next()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) - 1;
+
+                ChangeUpVoteIcon(vote, false);
+
+                // Add to local storage
+                localStorage.removeItem(key);
+            }
+
+
+
+
+
+        // ---- COMMENT DOWN ------
+        } else if ($(vote).hasClass("downVoteComment")) {
+            // COMMENT DOWN
+            var key = voteId + "CDOWN";
+            if (localStorage.getItem(key) == null) {
+                var changeValue = -1;
+                var upKey = voteId + "CUP";
+                if (localStorage.getItem(upKey) != null) {        // Ako prethodno bilo Down Vote treba za 2 da ja smenis vrendosta.
+                    changeValue = -2;
+                    localStorage.removeItem(upKey);
+
+                    var upButton = $(vote).prev().prev();
+                    ChangeUpVoteIcon(upButton, false);
+                }
+
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeCommentLikes",
+                    data: {
+                        'id': voteId,
+                        'value': changeValue
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).prev()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) + changeValue;
+
+                ChangeDownVoteIcon(vote, true);
+
+                // Add to local storage
+                localStorage.setItem(key, "true");
+            } else {
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeCommentLikes",
+                    data: {
+                        'id': voteId,
+                        'value': 1
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).prev()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) + 1;
+
+                ChangeDownVoteIcon(vote, false);
+
+                // Add to local storage
+                localStorage.removeItem(key);
+            }
+
+
+   
+        // ---- VOTE UP ----
+        } else if ($(vote).hasClass("upVoteReply")) {
+            // Reply Up Vote
+            var key = voteId + "RUP";
+
+            if (localStorage.getItem(key) == null) {
+                var changeValue = 1;
+                var downKey = voteId + "RDOWN";
+                if (localStorage.getItem(downKey) != null) {        // Ako prethodno bilo Down Vote treba za 2 da ja smenis vrendosta.
+                    changeValue = 2;
+                    localStorage.removeItem(downKey);
+
+                    var downButton = $(vote).next().next();
+                    ChangeDownVoteIcon(downButton, false);
+                }
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeReplyLikes",
+                    data: {
+                        'id': voteId,
+                        'value': changeValue
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).next()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) + changeValue;
+
+                ChangeUpVoteIcon(vote, true);
+
+                // Add to local storage
+                localStorage.setItem(key, "true");
+            } else {
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeReplyLikes",
+                    data: {
+                        'id': voteId,
+                        'value': -1
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).next()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) - 1;
+
+                ChangeUpVoteIcon(vote, false);
+
+                // Add to local storage
+                localStorage.removeItem(key);
+            }
+
+
+
+
+        // ---- VOTE DOWN ----
+        }else if ($(vote).hasClass("downVoteReply")) {
+            // Reply Down Vote
+            var key = voteId + "RDOWN";
+            if (localStorage.getItem(key) == null) {
+                var changeValue = -1;
+                var upKey = voteId + "RUP";
+                if (localStorage.getItem(upKey) != null) {        // Ako prethodno bilo Down Vote treba za 2 da ja smenis vrendosta.
+                    changeValue = -2;
+                    localStorage.removeItem(upKey);
+
+                    var upButton = $(vote).prev().prev();
+                    ChangeUpVoteIcon(upButton, false);
+                }
+
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeReplyLikes",
+                    data: {
+                        'id': voteId,
+                        'value': changeValue
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).prev()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) + changeValue;
+
+                ChangeDownVoteIcon(vote, true);
+
+                // Add to local storage
+                localStorage.setItem(key, "true");
+            } else {
+                // Post
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/ChangeReplyLikes",
+                    data: {
+                        'id': voteId,
+                        'value': 1
+                    }
+                });
+                // Changing value
+                var voteNumber = $(vote).prev()[0];
+                voteNumber.innerHTML = parseInt(voteNumber.innerHTML) + 1;
+
+                ChangeDownVoteIcon(vote, false);
+
+                // Add to local storage
+                localStorage.removeItem(key);
+            }
+        }
+
+    }
+</script>

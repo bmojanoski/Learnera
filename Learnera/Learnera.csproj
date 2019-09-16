@@ -376,6 +376,10 @@
     <Content Include="Content\DataTables\images\sort_desc.png" />
     <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
     <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\Images\sort-down.png" />
+    <Content Include="Content\Images\sort-down1.png" />
+    <Content Include="Content\Images\sort-up.png" />
+    <Content Include="Content\Images\sort-up1.png" />
     <Content Include="Content\laptop.jpg" />
     <Content Include="Content\login.css" />
     <Content Include="Content\Presentations.css" />

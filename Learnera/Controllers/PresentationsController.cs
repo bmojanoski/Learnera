@@ -130,6 +130,20 @@ namespace Learnera.Controllers
             return View(presentation);
         }
 
+        [HttpPost]
+        public void ChangeCommentLikes(int id, int value) {
+            var com = db.comments.Where(c => c.Id == id).FirstOrDefault();
+            com.LikesCount += value;
+            db.SaveChanges();
+        }
+
+        [HttpPost]
+        public void ChangeReplyLikes(int id, int value) {
+            var rep = db.replies.ToList().Find(c => c.Id == id);
+            rep.LikesCount += value;
+            db.SaveChanges();
+        }
+
         // POST: Presentations/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
