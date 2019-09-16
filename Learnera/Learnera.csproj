@@ -206,6 +206,7 @@
     <Compile Include="Models\ReplyApplicationUser.cs" />
     <Compile Include="Models\Slide.cs" />
     <Compile Include="Models\Subject.cs" />
+    <Compile Include="Models\SubjectsDTO.cs" />
     <Compile Include="Models\UserDTO.cs" />
     <Compile Include="Models\_SubjectsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -383,10 +384,12 @@
     <Content Include="Content\laptop.jpg" />
     <Content Include="Content\login.css" />
     <Content Include="Content\Presentations.css" />
+    <Content Include="Content\presentations.jpg" />
     <Content Include="Content\presentation_numbers\1.png" />
     <Content Include="Content\presentation_numbers\2.png" />
     <Content Include="Content\presentation_numbers\3.png" />
     <Content Include="Content\profesor.png" />
+    <Content Include="Content\subjects.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

@@ -13,11 +13,39 @@ namespace Learnera.Controllers
     public class SubjectsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
+        private List<SubjectsDTO> subjects = new List<SubjectsDTO>();
+        string username = "";
+        public ApplicationUser specificUser = new ApplicationUser();
         // GET: Subjects
         public ActionResult Index()
         {
-            return View(db.subjects.ToList());
+            return View();
+        }
+        
+        public ActionResult EditSubjects()
+        {
+            SubjectsDTO subjectDTO;
+            if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                username = System.Web.HttpContext.Current.User.Identity.Name;
+            }
+            specificUser = db.Users.Where(u => u.Email == username).FirstOrDefault();
+
+
+            foreach (var subject in db.subjects.ToList())
+            {
+                subjectDTO = new SubjectsDTO();
+                subjectDTO.subject = subject;
+                if (specificUser.Subjects.Contains(subject))
+                {
+                    subjectDTO.isSelected = true;
+                }
+                else {
+                    subjectDTO.isSelected = false;
+                }
+                subjects.Add(subjectDTO);
+            }
+            return View(subjects);
         }
 
         public ActionResult GetSubjects()
