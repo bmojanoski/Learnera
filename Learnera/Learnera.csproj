@@ -575,6 +575,8 @@
     <Content Include="Views\Presentations\Slides.cshtml" />
     <Content Include="Views\Home\EditUser.cshtml" />
     <Content Include="Views\Presentations\ShowComments.cshtml" />
+    <Content Include="Views\Presentations\_NewCommentPartial.cshtml" />
+    <Content Include="Views\Presentations\_NewReplyPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

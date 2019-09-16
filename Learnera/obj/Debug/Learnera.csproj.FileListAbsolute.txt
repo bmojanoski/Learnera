@@ -1113,7 +1113,6 @@ C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug
 C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.csproj.CopyComplete
 C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.dll
 C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.pdb
-C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.Migrations.first.resources
 C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.csproj.GenerateResource.cache
 C:\Workspace\Learnera\Learnera 4\learnera-final\Learnera\bin\Learnera.dll.config
 C:\Workspace\Learnera\Learnera 4\learnera-final\Learnera\bin\Learnera.dll
@@ -1452,3 +1451,6 @@ C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.cspr
 C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.csproj.CopyComplete
 C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.dll
 C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.pdb
+C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.Migrations.a1.resources
+C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.Migrations.proba.resources
+C:\Users\Asus\source\repos\Learnera_SkrosFinal\learnera-final\Learnera\obj\Debug\Learnera.Migrations.proba2.resources
