@@ -7,13 +7,9 @@
 @{
     int shownSlideIndex = 0;
     int totalSlides = Model.Count();
+    bool enabled = false;
 }
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<script src="https://kit.fontawesome.com/883500bd7a.js"></script>
+
 <div class="container-fluid">
     <div class="row mt-5">
         <div class="col-12 text-center">
@@ -70,7 +66,9 @@
 <div class="container">
     <div class="row mt-5">
         <div id="comments" class="col-12 shadow-lg pb-3 ">
+
         </div>
+
     </div>
 </div>
 @section scripts{
@@ -159,5 +157,70 @@
         function goBack() {
             window.history.back();
         }
+    </script>
+    <script>
+        $(document).on("click", "#postCommentButton", function () {
+             var slideId = $('div.active').attr("id");
+             var email = "@User.Identity.Name";
+            $.ajax({
+                type: "POST",
+                url: "/Presentations/AddComment",
+                data: {
+                email: email,
+                text: document.getElementById('comment').value,
+                slideId: slideId
+                },
+                success: function (result) {
+                    $('#commentsList > :last').before(result);
+                },
+            error: function (result) {
+                alert('error');
+            }
+        });
+
+        });
+
+
+    </script>
+    <script>
+        function focusOnComment() {
+            document.getElementById("comment").focus();
+        }
+    </script>
+   
+    <script>
+         
+    </script>
+    <script>
+        
+
+        $(document).on("click", "#postReplyButton", function () {
+            
+               
+                var repliesSection = $(this).parents('ul')[0]
+                var commentId = String(repliesSection.id).split('-')[2];
+                var email = "@User.Identity.Name";
+                var textValue = $('#reply-text-area')[0].value;
+                debugger;
+                $.ajax({
+                    type: "POST",
+                    url: "/Presentations/AddReply",
+                    data: {
+                        email: email,
+                        text: textValue,
+                        commentId: commentId
+                    },
+                    success: function (result) {
+                        $(".reply-div").remove();
+                        $("#" + repliesSection.id).append(result);
+                        delete replyClicked[commentId]
+                    },
+                    error: function (result) {
+                        alert('error');
+                    }
+                });
+            
+            
+        });
     </script>
 }

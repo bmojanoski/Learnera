@@ -223,6 +223,7 @@
     <Compile Include="Models\Slide.cs" />
     <Compile Include="Models\Subject.cs" />
     <Compile Include="Models\SubjectsDTO.cs" />
+    <Compile Include="Models\subjectsDTOViewModel.cs" />
     <Compile Include="Models\UserDTO.cs" />
     <Compile Include="Models\_SubjectsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -946,6 +947,8 @@
     <Content Include="Views\Presentations\Slides.cshtml" />
     <Content Include="Views\Home\EditUser.cshtml" />
     <Content Include="Views\Presentations\ShowComments.cshtml" />
+    <Content Include="Views\Presentations\_NewCommentPartial.cshtml" />
+    <Content Include="Views\Presentations\_NewReplyPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

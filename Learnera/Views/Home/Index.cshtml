@@ -19,26 +19,7 @@
     
     <div class="row border-left border-right shadow-sm">
         <div class="col-12 mt-3 pb-3 border-bottom">
-            <div class="row">
-
-                <div class="col-6 col-sm-2 ml-auto">
-
-                    <select class="form-control" name="sort">
-                        <option value="" selected hidden disabled>Sort by...</option>
-                        <option value="name">Name</option>
-                        <option value="last activity">Last activity</option>
-                    </select>
-                </div>
-                <div class="col-6 col-sm-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search subject..">
-
-                        <div class="input-group-append">
-                            <span class="input-group-text"><i class="fas fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <div class="row mt-5 justify-content-center">
 
                 @foreach (var subject in Model)

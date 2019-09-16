@@ -44,7 +44,35 @@ namespace Learnera.Controllers
 
             return PartialView("ShowComments", model);
         }
-    
+        [HttpPost]
+        public async Task<ActionResult> AddComment(String email, String text, int slideId)
+        {
+            var user = db.Users.Where(u => u.UserName == email).FirstOrDefault();
+            var slide = db.slides.Where(s => s.Id == slideId).First();
+            Comment com = new Comment();
+            com.Author = user;
+            com.Text = text;
+            com.Slide = slide;
+            db.comments.Add(com);
+            db.SaveChanges();
+            var model = com;
+            return PartialView("_NewCommentPartial", model);
+        }
+        [HttpPost]
+        public async Task<ActionResult> AddReply(String email, String text, string commentId)
+        {
+            var user = db.Users.Where(u => u.UserName == email).First();
+            var commentIdParsed = Int32.Parse(commentId);
+            var comment = db.comments.Where(c => c.Id == commentIdParsed).First();
+            Reply reply = new Reply();
+            reply.Author = user;
+            reply.CommentFrom = comment;
+            reply.Text = text;
+            db.replies.Add(reply);
+            db.SaveChanges();
+            var model = reply;
+            return PartialView("_NewReplyPartial", model);
+        }
 
         // GET: Presentations/Details/5
         public ActionResult Details(int? id)
