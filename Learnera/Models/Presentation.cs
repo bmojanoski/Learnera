@@ -11,6 +11,7 @@ namespace Learnera.Models
         public string name { get; set; }
         public virtual Subject Subject { get; set; }
         public virtual List<Slide> Slides { get; set; }
+        public int Lesson { get; set; }
 
     }
 }

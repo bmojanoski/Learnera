@@ -29,29 +29,44 @@
 <div class="row border-left border-right shadow-sm">
     <div class="col-12 mt-3 pb-3 border-bottom">
         <div class="col-12">
-            <div class="row">
-                @foreach (var presentation in Model)
-                {
-                    <div class="col-md-4">
-                        <div class="blog-card blog-card-blog">
-                            <div class="blog-card-image">
-                                <a href="#"> <img class="img" src="~/Content/presentations.jpg"> </a>
-                                <div class="ripple-cont"></div>
-                            </div>
-                            <div class="blog-table">
-                                <p class="blog-category text-muted"><i class="fas fa-book"></i> @presentation.Subject.Name</p>
-                                <h4 class="blog-card-caption py-3">
-                                    <a href="@Url.Action("Slides", "Presentations", new { id = presentation.Id})">"@presentation.name"</a>
-                                </h4>
-                                <div class="ftr">
-                                    <div class="author">
-                                        <img src="~/Content/profesor.png" alt="..." class="avatar img-raised"><span class="text-muted">@presentation.Subject.Professor</span>
+            <div class="row justify-content-center">
+                @{
+                    int totalLessons = 0;
+                    foreach(var presentation in Model) {
+                        if (presentation.Lesson > totalLessons) {
+                            totalLessons = presentation.Lesson;
+                        }
+                    }
+                }
+                @for (int i = 1; i <= totalLessons; i++) {
+                    <div class="row col-12 mt-0">
+                        <h1 class="mt-1">Lesson @i</h1>
+                    </div>
+                    foreach (var presentation in Model) {
+                        if (presentation.Lesson == i) {
+                            <div class="col-md-4">
+                                <div class="blog-card blog-card-blog">
+                                    <div class="blog-card-image">
+                                        <a href="#"> <img class="img" src="~/Content/presentations.jpg"> </a>
+                                        <div class="ripple-cont"></div>
                                     </div>
-                                    <div class="stats"> <i class="far fa-clock"></i> @presentation.Slides.Count slides </div>
+                                    <div class="blog-table">
+                                        <p class="blog-category text-muted"><i class="fas fa-book"></i> @presentation.Subject.Name</p>
+                                        <h4 class="blog-card-caption py-3">
+                                            <a href="@Url.Action("Slides", "Presentations", new { id = presentation.Id})">@presentation.name</a>
+                                        </h4>
+                                        <div class="ftr">
+                                            <div class="author">
+                                                <img src="~/Content/profesor.png" alt="..." class="avatar img-raised"><span class="text-muted">@presentation.Subject.Professor</span>
+                                            </div>
+                                            <div class="stats"> <i class="far fa-clock"></i> @presentation.Slides.Count slides </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        }
+                    }
+                    <hr class="w-100">
                 }
             </div>
         </div>
