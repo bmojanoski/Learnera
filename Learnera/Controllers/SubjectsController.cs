@@ -19,11 +19,6 @@ namespace Learnera.Controllers
         // GET: Subjects
         public ActionResult Index()
         {
-            return View();
-        }
-        
-        public ActionResult EditSubjects()
-        {
             SubjectsDTO subjectDTO;
             if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
             {
@@ -40,12 +35,40 @@ namespace Learnera.Controllers
                 {
                     subjectDTO.isSelected = true;
                 }
-                else {
+                else
+                {
                     subjectDTO.isSelected = false;
                 }
                 subjects.Add(subjectDTO);
             }
             return View(subjects);
+        }
+
+        public ActionResult editSubjects(List<_SubjectsViewModel> subject)
+        {
+
+            if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                username = System.Web.HttpContext.Current.User.Identity.Name;
+            }
+            specificUser = db.Users.Where(u => u.Email == username).FirstOrDefault();
+            db.Users.Where(u => u.Email == username).FirstOrDefault().Subjects.RemoveRange(0, specificUser.Subjects.Count);
+
+            if (subject == null)
+            {
+                db.SaveChanges();
+                return RedirectToAction("Index", "Home");
+            }
+
+            List<Subject> tempSubjects = new List<Subject>();
+            foreach (_SubjectsViewModel sub in subject)
+            {
+                var specificSubject = db.subjects.Where(s => s.Name == sub.Name && s.Professor == sub.Professor).FirstOrDefault();
+                tempSubjects.Add(specificSubject);
+            }
+            db.Users.Where(u => u.Email == username).FirstOrDefault().Subjects = tempSubjects;
+            db.SaveChanges();
+            return RedirectToAction("Index", "Home");
         }
 
         public ActionResult GetSubjects()
