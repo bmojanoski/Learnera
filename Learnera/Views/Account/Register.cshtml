@@ -12,7 +12,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>ViewAllFriends</title>
+    <title>Register</title>
     <link href="~/Content/signup.css" rel="stylesheet" />
 
     
@@ -23,7 +23,7 @@
 
     <script>
         //GLOBAL VARIABLES
-        var table = "";
+        
         var ime = "";
         var prezime = "";
         var email = "";
@@ -35,13 +35,7 @@
         var Subject = "";
         var Profesor = "";
 
-        function firstNextButtonClicked() {
-            ime = $("#inputName").val();
-            prezime = $("#inputSurname").val();
-            email = $("#inputEmail").val()
-            pasvord = $("#inputPassword").val()
-            confirm = $("#inputCpassword").val()
-
+        function afterButton() {
             $('#page1').removeClass('bg-primary');
             $('#page1').removeClass('active');
             $('#page1').addClass('disabled');
@@ -52,11 +46,75 @@
 
             $('#stepOne').hide();
             $('#stepTwo').show();
+        } 
 
 
-            table = $("#myTable").DataTable();
+        function CheckPassword(inputtxt) {
+            var decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+            if (inputtxt.match(decimal)) {
+                
+            }
+            else {
+                alert('Wrong...!')
+                return false;
+            }
+        } 
 
+
+        function firstNextButtonClicked() {
+            var decimal = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+            ime = $("#inputName").val();
+            prezime = $("#inputSurname").val();
+            email = $("#inputEmail").val()
+            pasvord = $("#inputPassword").val()
+            confirm = $("#inputCpassword").val()
+            if (ime != "" && prezime != "" && email != "" && pasvord != "" && confirm != "") {
+                afterButton();
+            } else {
+                if (ime == "") {
+                    $(".name").html("Plese enter your Name!");
+                } else {
+                     $(".name").html("");
+                } 
+                if (prezime == "") {
+                     $(".surname").html("Plese enter your Surname!");
+                } else {
+                     $(".surname").html("");
+                } 
+                if (email == "") {
+                     $(".email").html("Plese enter your Email!");
+                } else {
+                     $(".email").html("");
+                } 
+                if (pasvord == "") {
+                    $(".password").html("Plese enter your Password!");
+                } else {
+                    if (pasvord.match(decimal)) {
+                        if (pasvord == confirm) {
+                            $(".password").html("");
+                        } else {
+                             $(".password").html("Passwords doesn's match");
+                        }
+                    } else {
+                        $(".password").html("Password must be between 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character");
+                    }
+                } 
+                if (confirm == "") {
+                     $(".cpassword").html("Plese enter your Confirm Password!");
+                } else {
+                    if (confirm.match(decimal)) {
+                        if (pasvord == confirm) {
+                            $(".cpassword").html("");
+                        } else {
+                            $(".cpassword").html("Passwords doesn's match");
+                        }
+                    } else {
+                        $(".cpassword").html("Password must be between 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character");
+                    }
+                } 
+            }
         };
+
         function secondNextButtonClicked() {
             //GET ALL SELECTED SUBJECTS
 
@@ -99,6 +157,8 @@
 
             $('#stepOne').show();
             $('#stepTwo').hide();
+
+            
         };
 
         $(document).ready(function () {
@@ -106,6 +166,7 @@
             $('#stepTwo').hide();
             $('#myTable').load('/Subjects/GetSubjects');
         });
+
 
     </script>
 
@@ -131,7 +192,6 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <h3 class="card-title text-center font-weight-bold m-0">Sign up!</h3>
-                                        <p class=" text-center  small  mb-4">Lorem ipsum dolor sit amet.</p>
                                     </div>
                                 </div>
                             </div>
@@ -141,13 +201,14 @@
                             <div id="stepOne" class="container">
                                 <div class="row">
                                     <div class="col-6">
+                                        <label class="text-danger name"></label>
                                         <div class="form-label-group">
-                                            <input type="text" id="inputName" class="form-control" placeholder="Name"
-                                                   required autofocus>
+                                            <input type="text" id="inputName" class="form-control" placeholder="Name" required autofocus>
                                             <label for="inputName">Name*</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
+                                        <label class="text-danger surname"></label>
                                         <div class="form-label-group">
                                             <input type="text" id="inputSurname" class="form-control"
                                                    placeholder="Surname" required autofocus>
@@ -157,7 +218,9 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
+                                        <label class="text-danger email"></label>
                                         <div class="form-label-group">
+                                            
                                             <input type="email" id="inputEmail" class="form-control btn-block"
                                                    placeholder="Email address" required autofocus>
                                             <label for="inputEmail">Email address*</label>
@@ -166,6 +229,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
+                                        <label class="text-danger password"></label>
                                         <div class="form-label-group">
                                             <input type="password" id="inputPassword" class="form-control" placeholder="Password*"
                                                    required autofocus>
@@ -173,6 +237,7 @@
                                         </div>
                                     </div>
                                     <div class="col-6">
+                                        <label class="text-danger cpassword"></label>
                                         <div class="form-label-group">
                                             <input type="password" id="inputCpassword" class="form-control"
                                                    placeholder="Confirm Password*" required autofocus>
@@ -189,11 +254,11 @@
                             <div id="stepTwo" class="container">
                                 <div class="row">
                                     <div class="col-12">
-                                        
 
-                                            <table class="table" id="myTable"></table>
 
-                                        
+                                        <table class="table table-bordered table-dark" id="myTable"></table>
+
+
                                         <div class="row">
                                             <div class="col-5">
                                                 <button class="btn btn-md   btn-outline-light mr-3 text-uppercase "
