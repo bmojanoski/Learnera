@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-12 d-flex">
                         <p class="mb-0 d-flex align-items-center">Questions & Answers</p>
-                        <button id="askQuestionButton" class="btn btn-info ml-auto" onclick="focusOnComment()"><i class="far fa-edit"></i> Ask question</button>
+                        <button id="askQuestionButton" class="btn btn-primary ml-auto" onclick="focusOnComment()"><i class="far fa-edit"></i> Ask question</button>
                     </div>
                 </div>
             </div>
@@ -60,9 +60,10 @@
                                     }
                                 </ul>
                             </li>
-                            <hr />
-                            if (index == Model.Count())
-                            {
+                           <hr />
+                        }
+                        @if (index == Model.Count() || Model.Count() == 0)
+                        {
                                 <div class='row ml-2'>
                                     <div class='col-12 col-sm-8 col-md-6'>
                                         <small>Posting as: <span class='text-info'>@User.Identity.Name</span></small>
@@ -70,15 +71,15 @@
                                     <div class='col-12 col-sm-8 col-md-6'></div>
                                     <div class='form-group col-12 col-sm-8 col-md-6'>
                                         <label for='comment'>Write your question:</label>
-                                        <textarea class='form-control' rows='5' id='comment'></textarea>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
                                     </div>
                                     <div class='col-12 col-sm-8 col-md-6'></div>
                                     <div class='col-12 col-sm-8 col-md-6 d-flex'>
-                                        <button id='postCommentButton' type='button' class='btn btn-info ml-auto'>Post</button>
+                                        <button id='postCommentButton' type='button' class='btn btn-primary ml-auto'>Post</button>
                                     </div>
                                 </div>
                             }
-                        }
+                        
 
                     </ul>
                 </div>

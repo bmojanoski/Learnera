@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Learnera.Models.SubjectsDTO>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Add favourite subjects";
 }
 <div class="row shadow-sm rounded border mt-3 " style="border-color: whitesmoke">
     <div class="col-12 d-flex flex-column justify-content-center" style="height: 50px;">
@@ -61,7 +61,7 @@
                 var profesor = rowId[2].innerText;
                 model.push({ "Name": subject1, "Professor": profesor });
             });
-            debugger;
+            
             $.ajax({
                 url: "/Subjects/editSubjects",
                 method: "POST",
@@ -69,7 +69,7 @@
                     subject: model
                 },
                 success: function (data) {
-                    debugger;
+                    
                     model = [];
                     $("html").html(data);
                 }

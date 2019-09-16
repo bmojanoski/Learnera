@@ -52,12 +52,12 @@
                                         @Html.LabelFor(m => m.RememberMe, new { @class = "custom-control-label" })
                                     </div>
                                 </div>
-                                <div class="col-6 text-right  mb-3">
+                                @*<div class="col-6 text-right  mb-3">
                                     <label><a href="~/Views/Account/ForgotPassword.cshtml" class="text-light"></a></label>
                                     @Html.ActionLink("Forgot password?", "ForgotPassword", new { @class = "text-primary" })
-                                </div>
+                                </div>*@
                             </div>
-                            <button class="btn btn-md  btn-light btn-block text-uppercase btn-signIn" value="Log in" type="submit">Sign in</button>
+                            <button class="btn btn-sm  btn-success btn-block text-uppercase btn-signIn mt-3" value="Log in" type="submit">Sign in</button>
                             <hr class="my-4">
 
                             @*<button class="btn btn-md btn-google btn-block text-uppercase" type="submit">

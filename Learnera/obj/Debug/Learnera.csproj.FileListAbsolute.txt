@@ -1456,3 +1456,7 @@ C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.Migr
 C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.Migrations.less.resources
 C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.Migrations.seed1.resources
 C:\Workspace\Learnera\Learnera 5\learnera-final\Learnera\obj\Debug\Learnera.Migrations.seed123.resources
+C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.Migrations.lessonAdded.resources
+C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.Migrations.less.resources
+C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.Migrations.seed1.resources
+C:\Users\user\Desktop\Learnera\learnera-final\Learnera\obj\Debug\Learnera.Migrations.seed123.resources

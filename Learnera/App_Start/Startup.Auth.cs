@@ -58,11 +58,11 @@ namespace Learnera
                appId: "918267948553695",
                appSecret: "bb73c7009e9c4475e19a3537f7c19e32");
 
-            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            {
-                ClientId = "187643122890-eg4fpo8q5rtkd8v5p7ah2dpb7jo1i2ck.apps.googleusercontent.com",
-                ClientSecret = "ZXpn5wbPbAW2KtlgIZwEA3Vg"
-            });
+            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            //{
+            //    ClientId = "187643122890-eg4fpo8q5rtkd8v5p7ah2dpb7jo1i2ck.apps.googleusercontent.com",
+            //    ClientSecret = "ZXpn5wbPbAW2KtlgIZwEA3Vg"
+            //});
         }
     }
 }

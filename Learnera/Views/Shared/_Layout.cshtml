@@ -8,6 +8,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="icon" href="~/Content/learnera.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Welcome</title>
@@ -20,8 +21,9 @@
         }
 
         .semi-transparent {
-            background-color: rgba(255, 255, 255, 0.75);
+            background-color: rgba(255, 255, 255, 0.85);
         }
+
         body, html {
             font-family: 'Source Sans Pro', sans-serif;
         }
@@ -45,7 +47,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-light  border-bottom semi-transparent sticky-top shadow-sm">
         <div class="container">
-            <a class="navbar-brand font-weight-bold" href="#">Learnera</a>
+            <a class="navbar-brand font-weight-bold" href="/home/index"><img class="img-fluid" style="width:40px;" src="~/Content/learnera.png"> Learnera </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -71,7 +73,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     
                             <a class="dropdown-item text-dark" href="./EditUser/@User.Identity.GetUserId()">Account settings</a>
-                            <a class="dropdown-item text-dark" href="#">Change password</a>
+                            
                             <div class="dropdown-divider"></div>
                             @if (Request.IsAuthenticated)
                             {
@@ -96,10 +98,10 @@
         <div class="container">
             <div class="row  justify-content-between align-items-center ">
                 <div class="col-1">
-
+                    <img class="img-fluid" style="width:40px;" src="~/Content/learnera.png">    
                 </div>
-                <div class="col-2 text-center mt-4 mb-4">
-                    <h6 class="font-weight-bold text-muted">©Learnera, 2019</h6>
+                <div class="col-3 text-center mt-4 mb-4">
+                    <h6 class="font-weight-bold text-muted">  Learnera©, 2019</h6>
                 </div>
                 <div class="col-1 pl-0 pr-3 text-right my-4">
                     <a href="#" onclick="toTop()"><i class="fas fa-arrow-up"></i> To top</a>

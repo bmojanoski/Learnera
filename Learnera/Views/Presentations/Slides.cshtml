@@ -1,6 +1,6 @@
 ﻿@model IEnumerable<Learnera.Models.Slide>
 @{
-    ViewBag.Title = "Show";
+    ViewBag.Title = "Show slides";
 }
 
 
@@ -9,7 +9,28 @@
     int totalSlides = Model.Count();
     bool enabled = false;
 }
+<style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 100px;
+        width: 100%;
+        outline: black;
+        border-radius: 50%;
+        background-image: none;
+    }
 
+        .carousel-control-next-icon:after {
+            content: '>';
+            font-size: 40px;
+            color: black;
+        }
+
+        .carousel-control-prev-icon:after {
+            content: '<';
+            font-size: 40px;
+            color: black;
+        }
+</style>
 <div class="container-fluid">
     <div class="row mt-5">
         <div class="col-12 text-center">
@@ -56,8 +77,8 @@
     </div>
     <div class="row">
         <div class="col-12 bg-light shadow-sm p-2 d-flex border-top-0" style="border:solid 0.3px; border-color:lightgray ">
-            <button class="btn btn-info ml-2" onclick="goBack()"><i class="far fa-arrow-alt-circle-left"></i> Go back</button>
-            <button class="btn btn-info ml-auto mr-2" onclick="openFullscreen()"><i class="fas fa-compress"></i> Full screen</button>
+            <button class="btn btn-primary ml-2" onclick="goBack()"><i class="far fa-arrow-alt-circle-left"></i> Go back</button>
+            <button class="btn btn-primary ml-auto mr-2" onclick="openFullscreen()"><i class="fas fa-compress"></i> Full screen</button>
 
         </div>
     </div>
@@ -188,9 +209,7 @@
         }
     </script>
    
-    <script>
-         
-    </script>
+
     <script>
         
 
@@ -201,7 +220,7 @@
                 var commentId = String(repliesSection.id).split('-')[2];
                 var email = "@User.Identity.Name";
                 var textValue = $('#reply-text-area')[0].value;
-                debugger;
+                
                 $.ajax({
                     type: "POST",
                     url: "/Presentations/AddReply",
