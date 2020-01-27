@@ -16,52 +16,49 @@
             <h3 class=" text-secondary">Browse your subjects</h3>
         </div>
     </div>
-
+    
     <div class="row border-left border-right shadow-sm">
         <div class="col-12 mt-3 pb-3 border-bottom">
-            @if (User.IsInRole("Administrator"))
-            {
-                <div>asdasd</div>
-            }
-                <div class="row mt-5 justify-content-center">
+           
+            <div class="row mt-5 justify-content-center">
 
-                    @foreach (var subject in Model)
-                    {
-                        <div class="col-5 ml-5 mb-3">
-                            <div class="blog-card blog-card-blog">
-                                <div class="blog-card-image" style="box-shadow:none;">
-                                    <a href="/Presentations/Show/@subject.Id"> <img class="img" src="~/Content/subjects.png"> </a>
-                                    <div class="ripple-cont"></div>
-                                </div>
-                                <div class="blog-table">
-                                    <h3 class="blog-card-caption py-3">
-                                        <a href="/Presentations/Show/@subject.Id"> @subject.Name</a>
-                                    </h3>
-                                    <div class="ftr">
-                                        <div class="author">
-                                            <img src="~/Content/profesor.png" alt="..." class="avatar img-raised"><span class="text-muted">@subject.Professor</span>
-                                        </div>
+                @foreach (var subject in Model)
+                {
+                    <div class="col-5 ml-5 mb-3">
+                        <div class="blog-card blog-card-blog">
+                            <div class="blog-card-image" style="box-shadow:none;">
+                                <a href="/Presentations/Show/@subject.Id"> <img class="img" src="~/Content/subjects.png"> </a>
+                                <div class="ripple-cont"></div>
+                            </div>
+                            <div class="blog-table">
+                                <h3 class="blog-card-caption py-3">
+                                    <a href="/Presentations/Show/@subject.Id"> @subject.Name</a>
+                                </h3>
+                                <div class="ftr">
+                                    <div class="author">
+                                        <img src="~/Content/profesor.png" alt="..." class="avatar img-raised"><span class="text-muted">@subject.Professor</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        @*<div class="card text-center mx-auto mb-5 mt-5" style="padding: 0; border-radius:5px;">
+                    </div>
+                    @*<div class="card text-center mx-auto mb-5 mt-5" style="padding: 0; border-radius:5px;">
 
-                        <div class="card-header" style="background-color: #659DBD">
-                            <h2 style="margin:0" class="text-light"> <a  class="text-light" href="/Presentations/Show/@subject.Id"> @subject.Name</a></h2>
-                        </div>
-                        <div class="card-body" style="padding: 0; margin: 0.5em">
-                            <img src="~/Content/calc3.png" class="card-img">
-                        </div>
-                        <div class="card-footer" style="background-color: #659DBD">
-                            <h5 class="text-right text-light" style="margin:0">@subject.Professor</h5>
-                        </div>
-                    </div>*@
+                            <div class="card-header" style="background-color: #659DBD">
+                                <h2 style="margin:0" class="text-light"> <a  class="text-light" href="/Presentations/Show/@subject.Id"> @subject.Name</a></h2>
+                            </div>
+                            <div class="card-body" style="padding: 0; margin: 0.5em">
+                                <img src="~/Content/calc3.png" class="card-img">
+                            </div>
+                            <div class="card-footer" style="background-color: #659DBD">
+                                <h5 class="text-right text-light" style="margin:0">@subject.Professor</h5>
+                            </div>
+                        </div>*@
 
-                    }
-                </div>
-
+                }
             </div>
+
+        </div>
     </div>
 }
 else

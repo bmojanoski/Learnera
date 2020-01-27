@@ -180,7 +180,6 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PresentationsController.cs" />
     <Compile Include="Controllers\SubjectsController.cs" />
-    <Compile Include="Models\UserRoleDTO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -952,8 +951,6 @@
     <Content Include="Views\Presentations\ShowComments.cshtml" />
     <Content Include="Views\Presentations\_NewCommentPartial.cshtml" />
     <Content Include="Views\Presentations\_NewReplyPartial.cshtml" />
-<<<<<<< HEAD
-    <Content Include="Views\Account\ManageRoles.cshtml" />
 =======
     <Content Include="Views\Subjects\AllSubjects.cshtml" />
 >>>>>>> 62053269bfd5667eca4c709fb82fcfd7b4fc1338
