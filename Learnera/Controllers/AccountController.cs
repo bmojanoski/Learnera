@@ -53,7 +53,34 @@ namespace Learnera.Controllers
             }
         }
 
+        [Authorize(Roles = "Administrator")]
+        public ActionResult ManageRoles()
+        {
+            var emails = db.Users.ToList().Select(user => user.Email).ToList();
+            var roles = db.Roles.ToList().Select(role => role.Name).ToList();
+
+            var usersRolesDTO = new UserRoleDTO();
+            usersRolesDTO.userEmails = emails;
+            usersRolesDTO.roles = roles;
+
+            return View(usersRolesDTO);
+        }
+
+        [Authorize(Roles = "Administrator")]
+        [HttpPost]
+        public ActionResult AddUserToRole(UserRoleDTO model)
+        {
+            var user = UserManager.FindByEmail(model.chosenEmail);
+            string role = db.Roles.ToList().Where(r => r.Id == user.Roles.First().RoleId).First().Name;
+            UserManager.RemoveFromRole(user.Id, role);
+
+            UserManager.AddToRole(user.Id, model.chosenRole);
+            return RedirectToAction("Index", "Home");
+        }
         //
+
+
+
         // GET: /Account/Login
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
