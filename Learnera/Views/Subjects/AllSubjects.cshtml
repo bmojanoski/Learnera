@@ -43,7 +43,8 @@
 
 
     function deleteRow(event) {
-        var kopce = $('.js-delete');
+        debugger;   
+        var kopce = event.target.dataset.id;
         var table = event.target.parentNode.parentNode.parentNode;
         var tr = event.target.parentNode.parentNode;
         bootbox.confirm("Are you sure you want to delete?", function (result) {
@@ -51,7 +52,7 @@
                 if (result) {
                     $.ajax({
                         method: "POST",
-                        url: "/Subjects/DeleteConfirmed/" + kopce.attr("data-id"),
+                        url: "/Subjects/DeleteConfirmed/" + kopce,
                         success: function () {
                             table.removeChild(tr);
                         }
