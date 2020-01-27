@@ -75,6 +75,11 @@ namespace Learnera.Controllers
         {
             return PartialView("_Subjects_Partial",db.subjects.ToList());
         }
+        public ActionResult GetAllSubjects()
+        {
+            var subjects = db.subjects.ToList();
+            return View("AllSubjects",subjects);
+        }
         // GET: Subjects/Details/5
         public ActionResult Details(int? id)
         {
@@ -93,6 +98,8 @@ namespace Learnera.Controllers
         // GET: Subjects/Create
         public ActionResult Create()
         {
+            List<string> proffesors = db.subjects.ToList().Select(s => s.Professor).Distinct().ToList();
+            ViewBag.professors = proffesors;
             return View();
         }
 
@@ -101,7 +108,7 @@ namespace Learnera.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name")] Subject subject)
+        public ActionResult Create([Bind(Include = "Id,Name,Professor")] Subject subject)
         {
             if (ModelState.IsValid)
             {
@@ -160,11 +167,22 @@ namespace Learnera.Controllers
         }
 
         // POST: Subjects/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
+        [HttpPost]
         public ActionResult DeleteConfirmed(int id)
         {
             Subject subject = db.subjects.Find(id);
+            foreach(ApplicationUser u in db.Users.ToList()){
+                var user = db.Users.Where(us => us.Id == u.Id).First();
+                user.Subjects.Remove(subject);
+                db.SaveChanges();
+            }
+            foreach(Presentation p in db.presentantions.ToList())
+            {
+                if (p.Subject == subject)
+                {
+                    p.Subject = null;
+                }
+            }
             db.subjects.Remove(subject);
             db.SaveChanges();
             return RedirectToAction("Index");
