@@ -951,9 +951,6 @@
     <Content Include="Views\Presentations\ShowComments.cshtml" />
     <Content Include="Views\Presentations\_NewCommentPartial.cshtml" />
     <Content Include="Views\Presentations\_NewReplyPartial.cshtml" />
-=======
-    <Content Include="Views\Subjects\AllSubjects.cshtml" />
->>>>>>> 62053269bfd5667eca4c709fb82fcfd7b4fc1338
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
